@@ -1,5 +1,33 @@
 .MessageDetail {
-  height: 100px;
-  width: 100px;
-  background-color: aqua;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-rows: 5vw 1fr;
+  box-sizing: border-box;
+  grid-template-areas:
+    "header "
+    "bodyMsg ";
+  .header {
+    display: flex;
+
+    .avatar {
+      height: 100%;
+      aspect-ratio: 1/1;
+      background-color: grey;
+      border-radius: 5vw;
+    }
+    .from {
+      height: 100%;
+      width: 100%;
+      font-size: 40px;
+      font-weight: bold;
+    }
+  }
+  .bodyMsg {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3%;
+    overflow-y: scroll;
+  }
 }
