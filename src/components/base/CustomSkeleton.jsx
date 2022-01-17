@@ -53,9 +53,6 @@ export const CustomSkeleton = () => {
       `;
   return (
     <CustomSkeleton className="CustomSkeleton">
-      {/* {new Array(2).map((item, key) => (
-        <div key={key}>{item}</div>
-      ))} */}
       <ul>
         <li></li>
         <li></li>

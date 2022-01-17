@@ -1,6 +1,7 @@
 .Searchbar {
   height: 80%;
-
+  display: flex;
+  align-items: center;
   input {
     height: 100%;
     border-radius: 0.26vw;
@@ -8,7 +9,8 @@
     border: none !important;
     box-shadow: none !important;
     outline-color: white;
-
+    font-size: 0.52vw;
+    width: 10vw;
     padding: 0.1vw 0.31vw;
   }
   button {
@@ -19,5 +21,7 @@
     background-color: #0071bc;
     color: white;
     margin: 0 0.26vw;
+
+    font-size: 0.52vw;
   }
 }
