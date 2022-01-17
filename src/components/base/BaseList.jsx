@@ -1,9 +1,6 @@
 import React from "react";
 
 import styled from "styled-components";
-// import { componentList } from "../Identity/index";
-// import { serviceList } from "../../Services/Identity";
-// import styleList from "../../styles/identity/index.module.scss";
 
 function BaseList({ data, Component, columns }, ...props) {
   const BaseList = styled.ul`

@@ -12,12 +12,11 @@ const MessagesCards = (props) => {
   const onClickHandler = (event) => {
     const payload = {
       show: true,
-      Component: MessageDetail,
+      Elcompnent: <MessageDetail />,
       data: [
         {
           id: props.id,
           avatar: props.avatar,
-          title: props.title,
           from: props.from,
           body: props.body,
         },

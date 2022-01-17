@@ -8,7 +8,7 @@ function BaseModal(props) {
   const closeHandler = (event) => {
     setModal(false);
   };
-  const Component = modal.Component;
+  const Component = modal.Elcompnent;
   console.log(modal.show);
   if (Component === "undefined" && !modal.show) {
     return <div>nothing o render</div>;
@@ -19,7 +19,10 @@ function BaseModal(props) {
         onClick={closeHandler}
         style={modal.show ? { display: "flex" } : { display: "none" }}
       >
-        <div className="ModalContent"></div>
+        <div className="ModalContent">
+          {/* {React.cloneElement(Component)}s */}
+          {Component}
+        </div>
       </div>
     );
   }
