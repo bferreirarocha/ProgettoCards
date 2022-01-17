@@ -19,9 +19,7 @@ function BaseModal(props) {
         onClick={closeHandler}
         style={modal.show ? { display: "flex" } : { display: "none" }}
       >
-        <div className="ModalContent">
-          <Component />
-        </div>
+        <div className="ModalContent"></div>
       </div>
     );
   }
