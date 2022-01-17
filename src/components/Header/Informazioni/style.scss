@@ -1,0 +1,18 @@
+.Informazioni {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  ul {
+    display: flex;
+    list-style: none;
+    li {
+      &:not(:last-child)::after {
+        content: " > ";
+      }
+      font-size: 0.52vw;
+    }
+  }
+  span {
+    font-size: 0.83vw;
+  }
+}

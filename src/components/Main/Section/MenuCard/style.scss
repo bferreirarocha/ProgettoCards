@@ -1,0 +1,49 @@
+.MenuCard {
+  background-color: #f5f6fa;
+  border-radius: 1.04vw;
+  justify-content: space-between;
+  height: 3vw;
+  align-items: center;
+  transition: 0.2s ease-in-out;
+  box-sizing: border-box;
+  padding: 0 1.04vw;
+  display: flex;
+  align-items: center;
+  border: 0.1vw solid transparent;
+  margin: 0.26vw 0;
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+    img {
+      height: 1.56vw;
+      width: 1.56vw;
+    }
+    label {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.83vw;
+      cursor: pointer;
+      input {
+        display: none;
+      }
+    }
+    span {
+      display: flex;
+      justify-content: center;
+    }
+    .active {
+      border: 0.1vw solid #d3d3d3;
+    }
+  }
+  &:hover {
+    background-color: #d4d4d4;
+    border-color: #d4d4d4;
+  }
+}

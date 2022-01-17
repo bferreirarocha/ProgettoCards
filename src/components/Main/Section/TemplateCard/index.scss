@@ -1,0 +1,27 @@
+.TemplateCard {
+  height: 5.99vw;
+  aspect-ratio: 1/1;
+  background-color: #545768;
+  border-radius: 1.04vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1vw;
+  margin-top: 1.3333vw;
+  box-sizing: border-box;
+
+  .img {
+    width: fit-content;
+    height: fit-content;
+    svg {
+      height: 1.46vw;
+      fill: #939598;
+    }
+  }
+  .itemName {
+    color: #939598;
+    font-size: 0.73vw;
+    text-align: center;
+  }
+}

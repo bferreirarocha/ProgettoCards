@@ -1,0 +1,29 @@
+.Avatar {
+  display: flex;
+  flex-direction: row;
+  height: 2.6vw;
+  width: 2.6vw;
+  width: fit-content;
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+  .img {
+    height: 3.02vw;
+    aspect-ratio: 1/1;
+    border-radius: 5.21vw;
+    background-color: gray;
+  }
+  span {
+    height: fit-content;
+  }
+  button {
+    height: 100%;
+    border: none;
+    border-radius: 1vw;
+    padding: 0.2vw 1.04vw;
+    background-color: orange;
+    color: white;
+    margin: 0 3vw;
+    font-size: 0.52vw;
+  }
+}

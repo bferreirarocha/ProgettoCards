@@ -1,0 +1,110 @@
+.Identity {
+  display: grid;
+  grid-template-columns: 1fr 28.43vw;
+  grid-template-rows: 1fr;
+  grid-template-areas: "leftContainer rightContainer";
+  height: 100%;
+  .leftContainer,
+  .rightContainer {
+    overflow-y: scroll;
+  }
+
+  .leftContainer {
+    background-color: transparent;
+    overflow-y: scroll;
+    padding: 1vw 3vw;
+    height: 100%;
+
+    .container {
+      display: grid;
+      column-gap: 3vw;
+      grid-template-columns: 17.19vw 1fr;
+      height: 100%;
+      grid-template-areas: "menu cards";
+      padding-right: 1.2rem;
+      background-color: white;
+      padding: 2vw;
+      border-radius: 1vw;
+      margin-bottom: 20vw;
+
+      .menu {
+        //background-color: black;
+
+        // margin-left: 0.8rem;
+        height: 100%;
+      }
+
+      .cards {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        .title {
+          font-size: 2vw;
+          font-weight: 600;
+          margin-bottom: 1.5vw;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+
+      bottom {
+        width: fit-content;
+        height: fit-content;
+      }
+    }
+  }
+  .rightContainer {
+    display: flex;
+    width: 100%;
+
+    margin: 0;
+    .rgContainer {
+      text-align: left;
+      padding: 1.2rem;
+      width: 24.27vw;
+      height: 100%;
+      background-color: #3b3e51;
+      border-radius: 1.04vw;
+      box-sizing: border-box;
+      margin: 2vw auto;
+      margin-bottom: 20vw;
+    }
+    h1 {
+      color: white;
+      font-size: 2vw;
+      margin-bottom: 0.3vh;
+    }
+    button.SwitchCards {
+      margin: 1vw 0;
+      width: 100%;
+      padding: 0.52vw;
+      height: fit-content;
+      font-size: 0.73vw;
+      font-weight: 600;
+      box-sizing: border-box;
+      background-color: white;
+      outline: none;
+      border: 0;
+      border-radius: 0.21vw;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    p {
+      color: #82858f;
+    }
+    .searchBar {
+      width: 100%;
+      font-size: 0.73vw;
+      background-color: #444758;
+      color: #d3d3d3;
+      margin-top: 1.6vw;
+      padding: 0.6667vw;
+      border-radius: 0.63vw;
+      border: none;
+      outline-color: white;
+      box-sizing: border-box;
+    }
+  }
+}

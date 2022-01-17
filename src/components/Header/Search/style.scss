@@ -1,0 +1,23 @@
+.Searchbar {
+  height: 80%;
+
+  input {
+    height: 100%;
+    border-radius: 0.26vw;
+    background-color: #444758;
+    border: none !important;
+    box-shadow: none !important;
+    outline-color: white;
+
+    padding: 0.1vw 0.31vw;
+  }
+  button {
+    height: 90%;
+    border: none;
+    border-radius: 0.26vw;
+    padding: 0 1.04vw;
+    background-color: #0071bc;
+    color: white;
+    margin: 0 0.26vw;
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "data": {
+    "menu-cards": [
+      {
+        "id": 1,
+        "template": "Tutte",
+        "name": "Tutte",
+        "icon": ""
+      },
+      {
+        "id": 1,
+        "template": "Documento",
+        "name": "Document",
+        "icon": "documents"
+      },
+      {
+        "id": 1,
+        "template": "Account Social",
+        "name": "Accounts",
+        "icon": "accounts"
+      },
+      {
+        "id": 1,
+        "template": "Carta di credito",
+        "name": "Pagamenti",
+        "icon": "payments"
+      }
+    ],
+    "info-cards": [
+      {
+        "id": 1,
+        "name": "Carta d'identità",
+        "template": "Documento",
+        "category": {
+          "id": 1,
+          "name": "Documenti",
+          "colour": "#1872b7",
+          "icon": "documents"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Codice Fiscale",
+        "template": "Documento",
+        "category": {
+          "id": 1,
+          "name": "Documenti",
+          "colour": "#1872b7",
+          "icon": "documents"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Facebook",
+        "template": "Account Social",
+        "category": {
+          "id": 2,
+          "name": "Accounts",
+          "colour": "#b71533",
+          "icon": "accounts"
+        }
+      },
+      {
+        "id": 4,
+        "name": "VISA",
+        "template": "Carta di credito",
+        "category": {
+          "id": 3,
+          "name": "Pagamenti",
+          "colour": "#2fb7a3",
+          "icon": "payments"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Patente B",
+        "template": "Documento",
+        "category": {
+          "id": 1,
+          "name": "Documenti",
+          "colour": "#1872b7",
+          "icon": "documents"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Twitter",
+        "template": "Account Social",
+        "category": {
+          "id": 2,
+          "name": "Accounts",
+          "colour": "#b71533",
+          "icon": "accounts"
+        }
+      },
+      {
+        "id": 7,
+        "name": "American Express",
+        "template": "Carta di Credito",
+        "category": {
+          "id": 3,
+          "name": "Pagamenti",
+          "colour": "#2fb7a3",
+          "icon": "payments"
+        }
+      },
+      {
+        "id": 8,
+        "name": "Gmail",
+        "template": "Account Email",
+        "category": {
+          "id": 2,
+          "name": "Accounts",
+          "colour": "#b71533",
+          "icon": "accounts"
+        }
+      },
+      {
+        "id": 9,
+        "name": "Master Card",
+        "template": "Carta di Credito",
+        "category": {
+          "id": 3,
+          "name": "Pagamenti",
+          "colour": "#2fb7a3",
+          "icon": "payments"
+        }
+      },
+      {
+        "id": 10,
+        "name": "Poste Pay",
+        "template": "Carta di Credito",
+        "category": {
+          "id": 3,
+          "name": "Pagamenti",
+          "colour": "#2fb7a3",
+          "icon": "payments"
+        }
+      }
+    ],
+    "template-cards": [
+      {
+        "id": 1,
+        "name": "Aggiungi Template",
+        "icon": "add"
+      },
+      {
+        "id": 2,
+        "name": "Facebook",
+        "icon": "facebook"
+      },
+      {
+        "id": 3,
+        "name": "Carta di Credito VISA",
+        "icon": "payments"
+      },
+      {
+        "id": 4,
+        "name": "Paypal",
+        "icon": "payments"
+      },
+      {
+        "id": 5,
+        "name": "Account Twitter",
+        "icon": "twitter"
+      },
+      {
+        "id": 6,
+        "name": "Carta d'identità",
+        "icon": "documents"
+      },
+      {
+        "id": 7,
+        "name": "Documenti",
+        "icon": "documents"
+      }
+    ],
+    "messages-cards": [
+      {
+        "from": "Bruno Ferreira",
+        "avatar": "avatar",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, quam? Consectetur commodi omnis, sunt officia repudiandae minima, tenetur harum labore perferendis, aspernatur voluptatibus tempore repellendus corporis quas dolorum eius repellat"
+      },
+      {
+        "from": "Bruno Ferreira",
+        "avatar": "avatar",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, quam? Consectetur commodi omnis, sunt officia repudiandae minima, tenetur harum labore perferendis, aspernatur voluptatibus tempore repellendus corporis quas dolorum eius repellat"
+      },
+      {
+        "from": "Bruno Ferreira",
+        "avatar": "avatar",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, quam? Consectetur commodi omnis, sunt officia repudiandae minima, tenetur harum labore perferendis, aspernatur voluptatibus tempore repellendus corporis quas dolorum eius repellat"
+      },
+
+      {
+        "from": "Bruno Ferreira",
+        "avatar": "avatar",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, quam? Consectetur commodi omnis, sunt officia repudiandae minima, tenetur harum labore perferendis, aspernatur voluptatibus tempore repellendus corporis quas dolorum eius repellat"
+      },
+      {
+        "from": "Bruno Ferreira",
+        "avatar": "avatar",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, quam? Consectetur commodi omnis, sunt officia repudiandae minima, tenetur harum labore perferendis, aspernatur voluptatibus tempore repellendus corporis quas dolorum eius repellat"
+      },
+      {
+        "from": "Bruno Ferreira",
+        "avatar": "avatar",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, quam? Consectetur commodi omnis, sunt officia repudiandae minima, tenetur harum labore perferendis, aspernatur voluptatibus tempore repellendus corporis quas dolorum eius repellat"
+      },
+      {
+        "from": "Bruno Ferreira",
+        "avatar": "avatar",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, quam? Consectetur commodi omnis, sunt officia repudiandae minima, tenetur harum labore perferendis, aspernatur voluptatibus tempore repellendus corporis quas dolorum eius repellat"
+      },
+      {
+        "from": "Bruno Ferreira",
+        "avatar": "avatar",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, quam? Consectetur commodi omnis, sunt officia repudiandae minima, tenetur harum labore perferendis, aspernatur voluptatibus tempore repellendus corporis quas dolorum eius repellat"
+      }
+    ]
+  }
+}

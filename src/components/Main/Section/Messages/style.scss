@@ -1,0 +1,55 @@
+.Messages {
+  background-color: #2e2f36;
+  padding: 0.52vw;
+  display: flex;
+  flex-direction: column;
+  .author,
+  .msgbody,
+  button.showMsg {
+    margin-top: 0.52vw;
+  }
+  .__header {
+    display: flex;
+    align-items: center;
+    color: white;
+    .profileIcon {
+      height: 2.08vw;
+      aspect-ratio: 1/1;
+      margin-right: 0.52vw;
+    }
+    .from {
+      font-size: 0.57vw;
+    }
+    .author {
+      color: white;
+      font-weight: 500;
+      font-size: 0.57vw;
+      line-height: 0.78vw;
+      width: fit-content;
+    }
+    .msgbody {
+      color: white;
+      width: fit-content;
+    }
+  }
+
+  button.showMsg {
+    width: 100%;
+    padding: 0.52vw 0;
+    height: fit-content;
+    font-weight: 600;
+    box-sizing: border-box;
+    background-color: white;
+    outline: none;
+    border: 0;
+    border-radius: 0.21vw;
+    font-size: 0.57vw;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}

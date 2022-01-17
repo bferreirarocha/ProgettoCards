@@ -1,0 +1,34 @@
+.idCard {
+  height: 9.95vw;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1.5vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .img svg {
+    fill: white;
+  }
+  .Itemtitle {
+    font-size: 1vw;
+  }
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  .ItemName {
+    font-size: 1.5vw;
+    width: fit-content;
+  }
+}
