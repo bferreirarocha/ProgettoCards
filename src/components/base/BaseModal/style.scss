@@ -12,4 +12,13 @@
   &:hover {
     cursor: pointer;
   }
+  .ModalContent {
+    display: flex;
+    height: 80%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    background-color: white;
+  }
 }

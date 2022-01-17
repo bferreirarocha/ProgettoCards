@@ -24,7 +24,7 @@ const Avatar = (props) => {
         {iconsList[0]["avatarHeader"]}
       </div>
       <span
-        style={props.isHorizontal ? { color: "white" } : { fontSize: "11px" }}
+        style={props.isHorizontal ? { color: "white" } : { fontSize: "0.57vw" }}
       >
         {props.data.name}
       </span>

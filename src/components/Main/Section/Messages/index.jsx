@@ -5,15 +5,17 @@ import React from "react";
 import MessageDetail from "../MessageDetail/index";
 import ContextService from "../../../../services/ContextService";
 import { iconsList } from "../../../../services/iconsList";
-import BaseModal from "../../../base/BaseModal/BaseModal";
 
 const MessagesCards = (props) => {
+  const { modal, setModal } = useContext(ContextService);
+
   const onClickHandler = (event) => {
     const payload = {
       show: true,
-      Component: <MessageDetail />,
+      Component: MessageDetail,
       data: [
         {
+          id: props.id,
           avatar: props.avatar,
           title: props.title,
           from: props.from,
@@ -21,9 +23,7 @@ const MessagesCards = (props) => {
         },
       ],
     };
-
-    React.cloneElement(<BaseModal />, payload);
-    console.log("Element Created");
+    setModal(payload);
   };
   return (
     <div className="Messages" onClick={onClickHandler}>

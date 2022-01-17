@@ -11,6 +11,7 @@ import Widgets from "./components/Header/Widgets";
 import Clock from "./components/Header/Clock";
 import Informazioni from "./components/Header/Informazioni";
 import Searchbar from "./components/Header/Search/Searchbar";
+import BaseModal from "./components/base/BaseModal/BaseModal";
 
 function App() {
   const [modal, setModal] = useState([]);
@@ -83,6 +84,7 @@ function App() {
             <Main page={Identity} />
           </section>
         </main>
+        <BaseModal />
       </ContextService.Provider>
     </div>
   );

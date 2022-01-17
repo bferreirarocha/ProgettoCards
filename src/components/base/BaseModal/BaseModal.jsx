@@ -1,31 +1,30 @@
-import { React, useState } from "react";
-import { useContext } from "react";
+import { React, useContext } from "react";
+import "./style.scss";
 import ContextService from "../../../services/ContextService";
-import styled from "styled-components";
 
 function BaseModal(props) {
-  const [show, setshow] = useState(false);
-  const closeHandler = (event) => {};
-  console.log("Hello from  BaseModal");
-  const ModalContent = styled.div`
-    display: flex;
-    height: 80%;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    padding: 2vw;
-    background-color: white;
-  `;
+  const { modal, setModal } = useContext(ContextService);
 
-  return (
-    <div
-      className="BaseModal"
-      onClick={closeHandler}
-      style={show ? { display: "flex" } : { display: "none" }}
-    >
-      <ModalContent></ModalContent>
-    </div>
-  );
+  const closeHandler = (event) => {
+    setModal(false);
+  };
+  const Component = modal.Component;
+  console.log(modal.show);
+  if (Component === "undefined" && !modal.show) {
+    return <div>nothing o render</div>;
+  } else {
+    return (
+      <div
+        className="BaseModal"
+        onClick={closeHandler}
+        style={modal.show ? { display: "flex" } : { display: "none" }}
+      >
+        <div className="ModalContent">
+          <Component />
+        </div>
+      </div>
+    );
+  }
 }
 
 export default BaseModal;
